@@ -1,4 +1,5 @@
-# Práctica: Análisis y explicación de una GitHub Action
+# Práctica: Análisis y explicación de una GitHub Action 
+## Autor: Pablo Aller Moreno
 
 ## 1. Descripción general de la GitHub Action
 
@@ -79,5 +80,5 @@ Lista ordenada de pasos que se ejecutan dentro del job.
 Repositorio -> pestaña **Actions** -> workflow **CI - Tests Node** -> seleccionar el run y revisar logs.
 
 ### Evidencias
-Se adjuntan capturas/logs durante la presentación (o se ejecuta en directo desde la pestaña Actions).
+Capturas adjuntdas en la presentación entregada en la tarea de Aeducar
 

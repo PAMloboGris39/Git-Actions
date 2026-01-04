@@ -1,0 +1,35 @@
+name: CI - Tests Node
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test:
+    name: Ejecutar tests
+    runs-on: ubuntu-latest
+
+    env:
+      NODE_VERSION: "20"
+      CI: "true"
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Ejecutar tests
+        run: npm test
+
+      - name: Mensaje final
+        run: echo "CI finalizada correctamente en $RUNNER_OS"

@@ -1,4 +1,4 @@
-# Práctica: Análisis y explicación de una GitHub Action (Opción A)
+# Práctica: Análisis y explicación de una GitHub Action
 
 ## 1. Descripción general de la GitHub Action
 

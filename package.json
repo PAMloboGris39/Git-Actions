@@ -1,0 +1,10 @@
+{
+  "name": "practica-github-actions-ci",
+  "version": "1.0.0",
+  "description": "Práctica GitHub Actions - CI básica con tests",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "node test/sum.test.js"
+  },
+  "license": "MIT"
+}

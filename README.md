@@ -1,4 +1,4 @@
-# Práctica: Análisis y explicación de una GitHub Action 
+# Práctica: Análisis y explicación de una GitHub Action Pablo Alller
 ## Autor: Pablo Aller Moreno
 
 ## 1. Descripción general de la GitHub Action
